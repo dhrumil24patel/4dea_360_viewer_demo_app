@@ -39,4 +39,11 @@
             />
     </LinearLayout>
 
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/activity_main_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="bottom"
+        android:background="#999999"/>
+
 </FrameLayout>

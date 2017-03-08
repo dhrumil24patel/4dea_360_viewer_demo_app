@@ -21,6 +21,12 @@ public class MyPanoramaHelper extends PanoramaHelper implements PanoramaCallBack
         super.setCallBackListener(this);
     }
 
+    public MyPanoramaHelper(Context context, PanoramaCallBackListener listener){
+        super(context);
+        this.context = context;
+        super.setCallBackListener(listener);
+    }
+
     @Override
     public void initialize() {
         super.initialize();
